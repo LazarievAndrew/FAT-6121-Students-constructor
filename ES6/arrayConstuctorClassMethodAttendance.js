@@ -1,5 +1,5 @@
 
-export default function performance(arg) {
+export  default function attendance(arg){
     const list = this.slice();
     let isObject = true;
 
@@ -11,39 +11,41 @@ export default function performance(arg) {
 
     if (isObject) {
 
-        let marked = list.map(item => {
+        let visited = list.map((item) => {
             let sum = 0;
-            const _item = item.marks.filter(mark => {
-                    sum += mark;
+            const _item = item.attendance.filter((visit) => {
+                if (visit) {
+                    sum++
+                }
                 return sum;
             });
-            item.averageMark = sum / _item.length;
-            return item.averageMark;
+            item.averageVisited = sum / _item.length;
+            return item.averageVisited;
         });
 
-        let averageMarks = marked.filter(item => {
+        let averageVisit = visited.filter((item) => {
             if (item) return item;
         });
 
         list.sort((a, b) => {
-            return b.averageMark - a.averageMark;
+            return b.averageVisited - a.averageVisited;
         });
 
         if (arg) {
-            let rating = `Такого студента нет в группе!`;
+            let rating = 'Такого студента в группе!';
             list.forEach((item) => {
                 if (arg === item.surname) {
                     rating = `Студент ${item.surname} находится на ${
-                        list.indexOf(item) + 1} месте по среднему уровню оценок`;
+                        list.indexOf(item) + 1} месте по посещаемости`;
                     // rating = list.indexOf(item) + 1;   // вывод только места в рейтинге
                 }
             });
             return rating;
         }
 
-        return (averageMarks.reduce((a, b) => {
+        return (averageVisit.reduce((a, b) => {
             return a + b;
-        }, 0)) / averageMarks.length;
+        }, 0)) / averageVisit.length;
 
     }
 }

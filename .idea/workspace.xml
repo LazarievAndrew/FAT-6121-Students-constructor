@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22efaa43-8bde-4997-91a1-30fa05afb508" name="Default Changelist" comment="" />
+    <list default="true" id="22efaa43-8bde-4997-91a1-30fa05afb508" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5/arrayConstructorES5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5/arrayMethodAttendance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5/constructorStudent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5/getStudentAge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5/isAbsent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5/isPresent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5/isSummary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scriptES5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES5/arrayMethodAtendance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES5/arrayMethodPerformance.js" beforeDir="false" afterPath="$PROJECT_DIR$/ES5/arrayMethodPerformance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES6/arrayConstructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/arrayConstructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES6/arrayConstructorMethodPerformance.js" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/arrayConstructorMethodPerformance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES6/arrayConstuctorClassMethodAtendance.js" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/arrayConstuctorClassMethodAttendance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES6/classStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/classStudent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptES6.js" beforeDir="false" afterPath="$PROJECT_DIR$/scriptES6.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Xbi0dumui26dKZqE26Vf2bENlN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="ServiceViewManager">
@@ -42,7 +66,8 @@
       <workItem from="1581320978183" duration="20530000" />
       <workItem from="1581403070674" duration="11458000" />
       <workItem from="1581492650267" duration="62000" />
-      <workItem from="1581492776842" duration="15390000" />
+      <workItem from="1581492776842" duration="18477000" />
+      <workItem from="1581574475421" duration="10536000" />
     </task>
     <servers />
   </component>
@@ -50,6 +75,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Inspections" timestamp="1581580360347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1581580360347" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1581408011134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -25,185 +25,185 @@
 
     const vasiasMarks = [97, 98, 90, 85, 99, 96]
 
-    let student1 = new Student('Vasia', 'Vasiliev', 2003, vasiasMarks)
+    let student11 = new Student('Vasia', 'Vasiliev', 2003, vasiasMarks)
 
-    console.log(student1)
+    console.log(student11)
 
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.present();
-    student1.absent();
-    student1.present();
-    student1.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.present();
+    student11.absent();
+    student11.present();
+    student11.present();
 
-    console.log(student1.age());
-    student1.summary();
+    console.log(student11.age());
+    student11.summary();
 
     const petiasMarks = [97, 97, 96, 83, 99, 96]
 
-    let student2 = new Student('Petia', 'Petrov', 2001, petiasMarks)
+    let student22 = new Student('Petia', 'Petrov', 2001, petiasMarks)
 
-    console.log(student2)
+    console.log(student22)
 
-    student2.present();
-    student2.absent();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.absent();
-    student2.absent();
-    student2.absent();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.absent();
-    student2.absent();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.present();
-    student2.absent();
-    student2.absent();
-    student2.absent();
-    student2.absent();
+    student22.present();
+    student22.absent();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.absent();
+    student22.absent();
+    student22.absent();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.absent();
+    student22.absent();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.present();
+    student22.absent();
+    student22.absent();
+    student22.absent();
+    student22.absent();
 
 
-    console.log(student2.age());
-    student2.summary();
+    console.log(student22.age());
+    student22.summary();
 
     const sergeysMarks = [97, 74, 98, 90, 45, 85, 56, 99, 96];
 
-    let student3 = new Student('Sergey', 'Sergeev', 2004, sergeysMarks);
+    let student33 = new Student('Sergey', 'Sergeev', 2004, sergeysMarks);
 
-    console.log(student3);
+    console.log(student33);
 
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
-    student3.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
+    student33.present();
 
-    console.log(student3.age());
-    student3.summary();
+    console.log(student33.age());
+    student33.summary();
 
     const igorsMarks = [97, 74, 45, 85, 56, 96, 92, 86];
 
-    let student4 = new Student('Igor', 'Igorev', 2002, igorsMarks);
+    let student44 = new Student('Igor', 'Igorev', 2002, igorsMarks);
 
-    console.log(student4);
+    console.log(student44);
 
-    student4.present();
-    student4.present();
-    student4.present();
-    student4.present();
-    student4.present();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.present();
-    student4.present();
-    student4.present();
-    student4.present();
-    student4.present();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.absent();
-    student4.absent();
+    student44.present();
+    student44.present();
+    student44.present();
+    student44.present();
+    student44.present();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.present();
+    student44.present();
+    student44.present();
+    student44.present();
+    student44.present();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.absent();
+    student44.absent();
 
-    console.log(student4.age());
-    student4.summary();
+    console.log(student44.age());
+    student44.summary();
 
-    const group = new arrayConstructor(student1, student2, student3, student4);
-    console.log(group);
+    const group2 = new arrayConstructor(student11, student22, student33, student44);
+    console.log(group2);
 
     Array.prototype.attendance = arrayConstructor.attendance;
 
     console.log('-----Среднее посещаемость занятий студента-----');
-    console.log(group.attendance('Vasiliev'));
-    console.log(group.attendance('Petrov'));
-    console.log(group.attendance('Sergeev'));
-    console.log(group.attendance('Igorev'));
-    console.log(group.attendance('Pupkin'));
-    group.attendance('Vasiliev')
+    console.log(group2.attendance('Vasiliev'));
+    console.log(group2.attendance('Petrov'));
+    console.log(group2.attendance('Sergeev'));
+    console.log(group2.attendance('Igorev'));
+    console.log(group2.attendance('Pupkin'));
+    group2.attendance('Vasiliev')
 
     console.log('-----Среднее посещаемость занятий всех студентов-----');
     console.log(`Средняя посещаемость группы за одно занятие - ${
-        Math.round(group.attendance() * 100) / 100 } или ${Math.round(group.attendance() * 100)}%`);
+        Math.round(group2.attendance() * 100) / 100 } или ${Math.round(group2.attendance() * 100)}%`);
 
     Array.prototype.performance = arrayConstructor.performance;
 
     console.log('-----Средняя оценка студента-----');
-    console.log(group.performance('Vasiliev'));
-    console.log(group.performance('Petrov'));
-    console.log(group.performance('Sergeev'));
-    console.log(group.performance('Igorev'));
+    console.log(group2.performance('Vasiliev'));
+    console.log(group2.performance('Petrov'));
+    console.log(group2.performance('Sergeev'));
+    console.log(group2.performance('Igorev'));
 
     console.log('-----Средняя оценка всех студентов группы-----');
-    console.log(`Средняя оценка группы - ${Math.round(group.performance() * 100) / 100}`);
+    console.log(`Средняя оценка группы - ${Math.round(group2.performance() * 100) / 100}`);
 
 

@@ -48,11 +48,11 @@ export default class Student {
             return counter / _attendance.length;
         };
         if (averageMark > 90 && averageAttendance() > 0.9) {
-            console.log("Ути какой молодчинка!");
+            console.log(`Ути какой молодчинка!`);
         } else if ((averageMark < 90 && averageAttendance() < 0.9)) {
-            console.log("Редиска!");
+            console.log(`Редиска!`);
         } else {
-            console.log("Норм, но можно лучше");
+            console.log(`Норм, но можно лучше`);
         }
     }
 }

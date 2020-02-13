@@ -1,5 +1,5 @@
 
-import attendance from  './arrayConstuctorClassMethodAtendance.js'
+import attendance from  './arrayConstuctorClassMethodAttendance.js'
 import performance from "./arrayConstructorMethodPerformance.js";
 
 class arrayConstructor extends Array {
